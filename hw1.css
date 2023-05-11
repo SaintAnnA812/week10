@@ -1,0 +1,46 @@
+.container {
+    max-width: 1400px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+.name {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.slider-prev,
+.slider-next {
+    background-color: black;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+
+
+.slider {
+    width: 512px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider__item {
+    width: 1200px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.slider__item-image {
+    width: 512px;
+}
+
+.slider__button {
+    display: flex;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    justify-content: space-between;
+}
