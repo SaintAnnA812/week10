@@ -1,5 +1,10 @@
+.screen {
+    max-width: 1440px;
+}
+
+
 .container {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 30px auto;
     padding: 30px;
 }
